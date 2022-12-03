@@ -1,0 +1,16 @@
+{
+  "name": "mvm.tf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@rollup/plugin-image": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "mindalka-ui": "github:baldurstod/mindalka-ui"
+  }
+}

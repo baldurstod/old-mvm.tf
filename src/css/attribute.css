@@ -1,0 +1,67 @@
+.attribute
+{
+	max-width : 98%;
+	/*height : 1em;*/
+	background-color:#999999;
+    font-family: tf2build,Verdana,sans-serif;
+
+
+    border: 2px solid #888888;
+
+    border-radius: 3px;
+    padding: 2px;
+    /*margin: 10px;*/
+	margin-top: 2px;
+	/*margin-right: 10px;*/
+	font-size: 1.5em;
+	vertical-align:top;
+    text-decoration: none;
+	position:relative;
+}
+
+.attributeNegative{
+	color:#CC5555;
+    display:inline-block;
+	/*max-width : 60%;*/
+	width:10em;
+}
+
+.attributePositive{
+	color:#55EE55;
+    display:inline-block; 
+	/*max-width : 60%;*/
+	width:10em;
+	/*max-height : 1.6em;*/
+}
+
+.attributeNeutral{
+	color:#555555;
+    display:inline-block;
+	/*max-width : 60%;*/
+	width:10em;
+}
+
+[draggable=true] {
+    -khtml-user-drag: element; /* WebKit hack */
+    cursor:move;               /* a move cursor */
+    -moz-user-select:none;     /* disabled content selection
+                                  on mozilla browsers */
+}
+
+.attributeValue{
+    display:inline-block;
+}
+
+.attributeInput{
+	/*position:absolute;
+	right:1.7em;       */
+	width:3em;
+	/*top:2px;*/
+}
+
+.attributeRemove
+{
+    top: 0px;
+    right: 1px;
+	position:absolute;
+}
